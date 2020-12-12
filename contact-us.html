@@ -5,15 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="about-us.html">About Us</a>
-        <a href="contact-us.html">Contact Us</a>
-    </nav>
-    <h1>This is Contact Us Page.</h1>
+
+    <div class="logo">
+        <a href="index.html"><img src="logo.jpg" alt="Site Logo"></a>
+    </div>
+
+    <div class="navigation">
+        <nav>
+            <ul class="list-inline">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" class="form-control">
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="form-control">
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="20" class="form-control"></textarea>
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <button type="submit" class="btn btn-primary form-control">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright &copy; Digital Wave Co.Ltd  2017 - 2020 </p>
+    </div>
+
+    
+
+
+
+   
 </body>
 </html>
